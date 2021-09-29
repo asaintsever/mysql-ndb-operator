@@ -1,9 +1,0 @@
-apiVersion: mysql.oracle.com/v1alpha1
-kind: NdbCluster
-metadata:
-  name: example-ndb
-spec:
-  nodeCount: 2
-  redundancyLevel: 2
-  mysqld:
-    nodeCount: 2
