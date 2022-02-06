@@ -481,7 +481,7 @@ spec:
         - -service=ndbop-webhook-service
         command:
         - ndb-operator-webhook
-        image: mysql/ndb-operator:latest
+        image: asaintsever/mysql-ndb-operator:latest
         imagePullPolicy: IfNotPresent
         name: ndb-operator-webhook
         ports:
@@ -516,7 +516,7 @@ spec:
         - -cluster-scoped=true
         command:
         - ndb-operator
-        image: mysql/ndb-operator:latest
+        image: asaintsever/mysql-ndb-operator:latest
         imagePullPolicy: IfNotPresent
         name: ndb-operator-controller
         ports:

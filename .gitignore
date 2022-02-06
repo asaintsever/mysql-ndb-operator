@@ -28,6 +28,8 @@ test/system/terraform/cluster/terraform.tfstate.backup
 *.dylib
 *.pyc
 
+*.tgz
+
 # Test binary, build with `go test -c`
 *.test
 
