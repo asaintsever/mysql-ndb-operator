@@ -3,6 +3,24 @@ entries:
   ndb-operator:
   - apiVersion: v2
     appVersion: 8.0.26-0.1.0
+    created: "2022-02-07T09:34:23.193247613+01:00"
+    description: A Helm chart for deploying the Oracle MySQL NDB Cluster Operator
+    digest: 6da67434aa90e149cb5d6373ac245ff8cf966a1ded04146fd2735b10a7d230fc
+    keywords:
+    - NDB Operator
+    - MySQL Cluster
+    - NDB
+    - Ndbcluster
+    kubeVersion: '>= 1.19.0'
+    maintainers:
+    - email: lakshmi.narayanan.sreethar@oracle.com
+      name: Lakshmi Narayanan Sreethar
+    name: ndb-operator
+    urls:
+    - ndb-operator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 8.0.26-0.1.0
     created: "2021-09-29T11:22:05.084159886+02:00"
     description: A Helm chart for deploying the Oracle MySQL NDB Cluster Operator
     digest: da1f0a1fc3836a3c4868f85e1d32c45174e4de7610af06f0b581ad74ddb171d2
@@ -19,4 +37,4 @@ entries:
     urls:
     - ndb-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-29T11:22:05.083675211+02:00"
+generated: "2022-02-07T09:34:23.192456673+01:00"
