@@ -84,6 +84,11 @@ type NdbClusterSpec struct {
 	// +kubebuilder:validation:Pattern="[0-9]+[MGT]"
 	DataMemory string `json:"dataMemory,omitempty"`
 
+	// Number of free API slots for other NDBAPI applications
+	// +kubebuilder:default=3
+	// +optional
+	ApiFreeSlots int32 `json:"apiFreeSlots,omitempty"`
+
 	// Extra ndbd default parameters to be added to [ndbd default] section of config.ini file.
 	// Exception: parameters DataMemory and NoOfReplicas should not be added as
 	// they are handled through CRD attributes dataMemory and redundancyLevel.
