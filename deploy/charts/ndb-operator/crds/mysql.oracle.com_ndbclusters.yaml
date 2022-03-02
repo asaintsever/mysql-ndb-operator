@@ -203,6 +203,10 @@ spec:
                 description: NdbMysqldSpec is the specification of MySQL Servers to
                   be run as an SQL Frontend
                 properties:
+                  apiFreeSlots:
+                    description: Number of free API slots for other NDBAPI applications
+                    format: int32
+                    type: integer
                   myCnf:
                     description: Configuration options to pass to the MySQL Server
                       when it is started.
